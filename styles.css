@@ -1,0 +1,243 @@
+    /*
+    Anthony Hernandez
+    April 7, 2023
+    IT 202-006
+    Unit 11 Assignment Final Phase
+    ah727@njit.edu
+    */
+
+/* START of CSS that applies across all pages */
+
+#iconleft {
+    float: left;
+}
+
+h1 {
+    width: 1275px;
+    height: 65px;
+    margin: auto;
+    padding: .55em;
+    text-align: center;
+    font-size: 50px;
+}
+li {
+    list-style-type: none;
+    display: inline;
+    padding-right: 30px;
+}
+nav {
+    width: 200px;
+    height: 20px;
+    display: inline;
+}
+body
+{ 
+    background-color: #FFD1D1;
+    margin: .3em;
+    padding: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+
+footer {
+    height: 20px;
+    width: 1200px;
+    text-align: center;
+    margin: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+figcaption {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/**************** END ****************/
+
+
+/* START of CSS that applies to the MAIN page */
+
+#home {
+    width: 1335px;
+    height: 1320px;
+}
+.midimages {
+    width: 375px;
+    height: 225px;
+}
+#bakeryleft {
+    clear: left; display: inline-block; float: right;
+}
+#tortright {
+    text-align: left; margin-top: 100px; margin-left: 0px;
+}
+#mexicantreats {
+    margin: auto; text-align: center; width: 1100px;
+}
+div.box { overflow: hidden; }
+
+span figure {
+    display: inline-block;
+}
+
+/**************** END ****************/
+
+figure.images {
+    width: 350px;
+    height: 200px;
+}
+
+/* START of CSS that applies to the SHIPPING page */
+
+#shipping {
+    width: 1335px;
+    height: 550px;
+}
+#to-form-field {
+    background-color: #FF69B4; 
+    padding: 10px; 
+    overflow: hidden;
+}
+#data label {
+    width: 10em;
+    padding-right: .5em;
+    float: left;
+}
+#notice {
+    width: 560px;
+    height: 50px
+}
+
+/**************** END ****************/
+
+/* START of CSS that applies to the DISPLAY page */
+
+#display {
+    width: 1335px;
+    height: 950px;
+}
+.promise {
+    width: 500px;
+    height: 75px
+}
+#to-info {
+    text-align: center; 
+    border-top: solid black;
+    padding: 5px 0;
+    width: 500px;
+    margin: auto;
+}
+#tracking {
+    text-align: center; 
+    border-top: solid black;
+    border-bottom: solid black; 
+    width: 500px; 
+    margin: auto;
+    padding: 5px 0;
+}
+#weight-and-dimens {
+    text-align: center; 
+    border-top: solid black;
+    width: 500px; 
+    margin: auto; 
+    padding: 5px 0;
+}
+
+/**************** END ****************/
+
+
+/* START of CSS that applies to the DESSERTS page */
+
+#dessert {
+    width: 1335px;
+    height: 650px;
+}
+td {
+    padding: .2em .5em .2em .5em;
+}
+ul.categories {
+    margin-left: 0;
+    padding-left: 0;
+}
+#catlinks {
+	display: inline;
+}
+#links {
+  padding: 10px;
+}
+#table-design {
+    border-top: solid #FF9494;
+    border-bottom: solid #F47C7C;
+    border-radius: 10px 10px;
+    padding: 2px;
+}
+
+/**************** END ****************/
+
+
+/* START of CSS that applies to the CREATE page */
+#create {
+    width: 1335px;
+    height: 450px;
+}
+#dessert-form {
+    border-left: solid #FF69B4;
+    border-right: solid #FF69B4;
+    border-radius: 20px 20px;
+    border-width: thick;
+    background-color: #F9B5D0;
+    padding: 10px;
+}
+#add-dessert label{
+    width: 11em;
+    padding-right: 1em;
+    float: left;
+}
+.dessert-list {
+    margin: 2px;
+}
+/**************** END ****************/
+
+/* START of CSS that applies to the LOGIN page */
+#login {
+    width: 1335px;
+    height: 400px;
+}
+#authentication-form {
+    border-left: solid #F47C7C;
+    border-right: solid #F47C7C;
+    border-radius: 20px 20px;
+    border-width: thick;
+    background-color: #FCC2FC;
+    padding: 10px;
+}
+#login-fields label {
+    width: 8em;
+    padding-right: 1em;
+    float: left;
+}
+/**************** END ****************/
+
+/* START of CSS that applies to the DETAILS page */
+#details {
+    width: 1335px;
+    height: 800px;
+}
+#dessert-image {
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    border: 5px solid #FF69B4; 
+    border-radius: 20px 20px; 
+    border-width: thick;
+}
+/* Footer width & space are modified further up this page */
+#dessert-showoff img {
+    width: 500px;
+    height: 300px;
+}
+#detail-styling label {
+    width: 9.59em;
+    padding-right: 1em;
+    float: left;
+    text-align: center;
+}
+/**************** END ****************/
